@@ -4,7 +4,7 @@ import { faEnvelope, faPaperclip } from '@fortawesome/free-solid-svg-icons'
 function Contact() {
   return (
     <>
-      <section>
+      <section id="contact">
         <h2>Contact Me</h2>
       </section>
       <section className="contact">
@@ -17,7 +17,7 @@ function Contact() {
           />
         </a>
         <h3>Download my CV</h3>
-        <a href="/images/github.svg" download>
+        <a href="/images/MiloCV.pdf" download>
           <FontAwesomeIcon
             icon={faPaperclip}
             color="#6beFFF"
