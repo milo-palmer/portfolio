@@ -15,7 +15,6 @@ function ReactLogo() {
       X: event.clientX / 1400 - 0.7,
       Y: event.clientY / 700 - 0.5,
     }
-    console.log(mouse.X, mouse.Y)
   })
 
   useFrame((state, delta) => {
