@@ -3,7 +3,9 @@ function Header() {
     <nav>
       <h1>Milo.</h1>
       <div>
-        <button>Projects</button>
+        <a href="#projects">
+          <button style={{ marginRight: '20px' }}>Projects</button>
+        </a>
         <button>Contact Me</button>
       </div>
     </nav>

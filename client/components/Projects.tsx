@@ -1,6 +1,6 @@
 function Projects() {
   return (
-    <section className="grid-reverse">
+    <section className="grid-reverse" id="projects">
       <a
         className="img-container"
         href="https://github.com/harakeke-2023/sims-final-project"

@@ -1,3 +1,4 @@
+import Contact from './Contact'
 import Header from './Header'
 import Main from './Main'
 import Projects from './Projects'
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Main />
       <Projects />
+      <Contact />
     </>
   )
 }

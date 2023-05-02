@@ -7,6 +7,10 @@ body {
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1, h2, h3 {
   margin: 10px 0;
   font-weight: 600;
@@ -48,7 +52,7 @@ section {
 }
 
 .main {
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 .grid {
@@ -72,13 +76,7 @@ img {
 }
 
 .img-container:hover {
-  padding: 20px;
-}
-
-.black-div{
-  width: 100%;
-  height: 100%;
-  background-color: black;
+  padding: 5px;
 }
 
 .center-text{
@@ -94,4 +92,8 @@ img {
   margin: 0 auto;
  }
 
- 
+ .contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ }
