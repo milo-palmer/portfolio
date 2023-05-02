@@ -1,11 +1,14 @@
+import { Canvas } from '@react-three/fiber'
+import ReactLogo from './ReactLogo'
+
 function Main() {
   return (
     <section className="grid main">
       <div className="center-text">
         <h2>Hi I&apos;m Milo</h2>
         <p>
-          I am a software developer who is passionate about bringing 3D to the
-          world of websites
+          I am a software developer, I love to learn and grow and have a little
+          sideproject to bring more 3D to the world of websites
         </p>
         <div>
           <a
@@ -32,8 +35,10 @@ function Main() {
           </a>
         </div>
       </div>
-      <div>
-        <img src="images/react.png" alt="react logo" />
+      <div style={{ height: '60vh' }}>
+        <Canvas>
+          <ReactLogo />
+        </Canvas>
       </div>
     </section>
   )

@@ -6,7 +6,9 @@ function Header() {
         <a href="#projects">
           <button style={{ marginRight: '20px' }}>Projects</button>
         </a>
-        <button>Contact Me</button>
+        <a href="#contact">
+          <button>Contact Me</button>
+        </a>
       </div>
     </nav>
   )

@@ -20,7 +20,10 @@ function Projects() {
           </p>
         </div>
       </section>
-      <section className="grid" id="projects">
+      <section
+        className="grid"
+        style={{ paddingTop: '40px', paddingBottom: '40px' }}
+      >
         <div className="center-text">
           <h2>Todo List</h2>
           <p>Classic Todo list, Was one of the challenges from dev academy</p>
@@ -34,7 +37,7 @@ function Projects() {
           <img src="images/todo.png" alt="Todo home page" />
         </a>
       </section>
-      <section className="grid-reverse" id="projects">
+      <section className="grid-reverse">
         <a
           className="img-container"
           href="https://github.com/harakeke-2023/Team-Misfit-Koalas"
