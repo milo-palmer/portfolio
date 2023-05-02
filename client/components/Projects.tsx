@@ -1,6 +1,6 @@
 function Projects() {
   return (
-    <section>
+    <section className="grid">
       <div>
         <h2>Sims Scribble 98</h2>
         <p>
